@@ -1,0 +1,151 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div:focus {
+    outline-style: none;
+}
+
+/* font rules */
+
+@font-face {
+    font-family: "Tesco";
+    src: url("/assets/app/core/fonts/Tesco/tescorg.eot");
+    src: local("☺︎"), url("/assets/app/core/fonts/Tesco/tescorg.eot?#iefix") format("embedded-opentype"), url("/assets/app/core/fonts/Tesco/tescorg.woff") format("woff"), url("/assets/app/core/fonts/Tesco/tescorg.ttf") format("truetype"), url("/assets/app/core/fonts/Tesco/tescorg.svg#tescoregular") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tesco";
+    src: url("/assets/app/core/fonts/Tesco/tescobd.eot");
+    src: local("☺︎"), url("/assets/app/core/fonts/Tesco/tescobd.eot?#iefix") format("embedded-opentype"), url("/assets/app/core/fonts/Tesco/tescobd.woff") format("woff"), url("/assets/app/core/fonts/Tesco/tescobd.ttf") format("truetype"), url("/assets/app/core/fonts/Tesco/tescobd.svg#tescobold") format("svg");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/app/core/fonts/Roboto-Light/roboto-light.eot");
+    src: local("☺︎"), url("/assets/app/core/fonts/Roboto-Light/roboto-light.eot?#iefix") format("embedded-opentype"), url("/assets/app/core/fonts/Roboto-Light/roboto-light.woff") format("woff"), url("/assets/app/core/fonts/Roboto-Light/roboto-light.ttf") format("truetype"), url("/assets/app/core/fonts/Roboto-Light/roboto-light.svg#RobotoLight") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/app/core/fonts/Roboto-Medium/roboto-medium.eot#iefix");
+    src: local("☺︎"), url("/assets/app/core/fonts/Roboto-Medium/roboto-medium.eot#iefix") format("embedded-opentype"), url("/assets/app/core/fonts/Roboto-Medium/roboto-medium.woff") format("woff"), url("/assets/app/core/fonts/Roboto-Medium/roboto-medium.ttf") format("truetype"), url("/assets/app/core/fonts/Roboto-Medium/roboto-medium.svg#RobotoLight") format("svg");
+    font-weight: 700;
+}
+
+body {
+    color: #656565;
+    /* brand-grey */
+    font-family: 'Roboto man', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    /*$root-font-size-mobile;*/
+    line-height: 1.5;
+    /*$root-line-height-mobile;*/
+}
+
+ h1,
+ h2,
+ h3 {
+    font-family: 'Tesco', sans-serif;
+    letter-spacing: 0;
+    font-weight: bold;
+    line-height: 1.0;
+    margin: 0;
+}
+
+ h1,
+ h2 {
+    font-size: 2.0em;
+    color: #1c315f;
+    /* $brand-navy */
+}
+
+p {
+    color: #1c315f;
+    font-size: 1.3em;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+a {
+    color: #1c315f;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+/* specific rules */
+#main-image {
+    height: 45%;
+}
+
+#footer {
+    height: 5%;
+}
+
+#space {
+    height: 10%;
+}
+
+#text-p {
+    height: 26%;
+    width: 100%;
+    display: table;
+}
+
+#text-h1 {
+    height: 14%;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0% 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.container-inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main-image {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.footer {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bgr-color {
+    background-color: #ffffff;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
